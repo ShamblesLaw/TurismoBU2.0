@@ -8,8 +8,9 @@
   <link rel="shortcut icon" href="imgs/favicon.ico">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/slider.css">
   <script src="js/slider.js"></script>
-  <script src="js/cosas.js"></script>
+  <script src="js/slider-img.js"></script>
 </head>
 <body>
     <header>
@@ -25,11 +26,59 @@
         </nav>
       </header>
       <main>
-        
+        <h1 class="titulo">Galería de imagenes</h1>
 
-        
-        
+        <div class="overlay">
+            <div class="slideshow">
+                <span class="btn_cerrar">&times;</span>
+                <div class="botones adelante">
+                    <i class="mdi mdi-arrow-right-circle-outline"></i>
+                </div>
+                <div class="botones atras">
+                    <i class="mdi mdi-arrow-left-circle-outline"></i>
+                </div>
+                <img src="" alt="" id="img_slideshow">
+            </div>
+        </div>
 
+        <section class="galeria">
+            <div class="columna">
+                <img src="imgs/" alt="" data-img-mostrar="0">
+                <img src="imgs/galeria/2.jpg" alt="" data-img-mostrar="1">
+                <img src="imgs/galeria/3.jpg" alt="" data-img-mostrar="2">
+                <img src="imgs/galeria/4.jpg" alt="" data-img-mostrar="3">
+                <img src="imgs/galeria/5.jpg" alt="" data-img-mostrar="4">
+
+            </div>
+            <div class="columna">
+                <img src="imgs/galeria/6.jpg" alt="" data-img-mostrar="5">
+                <img src="imgs/galeria/7.jpg" alt="" data-img-mostrar="6">
+                <img src="imgs/galeria/8.jpg" alt="" data-img-mostrar="7">
+                <img src="imgs/galeria/9.jpg" alt="" data-img-mostrar="8">
+                <img src="imgs/galeria/10.jpg" alt="" data-img-mostrar="9">
+            </div>
+            <!-- <div class="columna">
+                <img src="img/galeria/11.jpg" alt="" data-img-mostrar="10">
+                <img src="img/galeria/12.jpg" alt="" data-img-mostrar="11">
+                <img src="img/galeria/13.jpg" alt="" data-img-mostrar="12">
+                <img src="img/galeria/14.jpg" alt="" data-img-mostrar="13">
+                <img src="img/galeria/15.jpg" alt="" data-img-mostrar="14">
+            </div>
+            <div class="columna">
+                <img src="img/galeria/16.jpg" alt="" data-img-mostrar="15">
+                <img src="img/galeria/17.jpg" alt="" data-img-mostrar="16">
+                <img src="img/galeria/18.jpg" alt="" data-img-mostrar="17">
+                <img src="img/galeria/19.jpg" alt="" data-img-mostrar="18">
+                <img src="img/galeria/20.jpg" alt="" data-img-mostrar="19">
+            </div> -->
+            <!-- <div class="columna">
+                <img src="img/galeria/21.jpg" alt="" data-img-mostrar="20">
+                <img src="img/galeria/22.jpg" alt="" data-img-mostrar="21">
+                <img src="img/galeria/23.jpg" alt="" data-img-mostrar="22">
+                <img src="img/galeria/24.jpg" alt="" data-img-mostrar="23">
+                <img src="img/galeria/25.jpg" alt="" data-img-mostrar="24"> 
+            </div> -->
+        </section>
       </main>
       <footer>
         <p>Leandro Goméz - Ignacio Silva ©</p>
