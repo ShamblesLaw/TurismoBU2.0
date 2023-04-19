@@ -3,7 +3,7 @@ main{
     color: black;
 }
 
-.zona3{
+.zona2{
   position: relative;
   width: 100%;
   height: 100vh;
@@ -12,47 +12,47 @@ main{
   background-position: center center;
 }
 
-.zona3 div{
+.zona2 div{
   color: white;
   text-align: center;
   padding-top: 300px;
 }
 
-.zona3 div h1{
+.zona2 div h1{
   
   font-size: 4em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.zona3 div p{
+.zona2 div p{
   padding-top: 15px;
   font-size: 2em;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-.zona3{
+.zona2{
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url(../imgs/wallpapper-act-blur.png);
+  background: url(../imgs/wallpaper-bu-blur.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-.zona3 div{
+.zona2 div{
   color: white;
   text-align: center;
   padding-top: 300px;
 }
 
-.zona3 div h1{
+.zona2 div h1{
   
   font-size: 4em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.zona3 div p{
+.zona2 div p{
   padding-top: 15px;
   font-size: 2em;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -65,31 +65,4 @@ main{
 
 
 
-.presentacion{
-  text-align: center;
-  padding: 4em;
-  padding-top: 6em; 
-  font-family: 'Open Sans', sans-serif;
-}
-
-.carta-presentacion{
-  display: flex;
-  border-radius: 10px;
-  margin: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding: 20px;
-  padding-left: 80px;
-  padding-right: 80px;
-  background-color: rgb(246, 246, 246);
-  justify-content:center;
-}
-
-.carta-presentacion section{
-  margin: 20px;
-}
-
-.carta-presentacion section h3{
-  text-align: center;
-}
 
