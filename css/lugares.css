@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+  background-image: url(../imgs/texture-wave.jpg);
+  background-size: 80px;
+}
+
 main{
     color: black;
 }
