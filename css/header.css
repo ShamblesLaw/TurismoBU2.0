@@ -17,6 +17,7 @@ header{
     transition: 0.7s;
     padding: 30px 20px;
     z-index: 10;
+    backdrop-filter: blur(10px);
 }
 .act{
     position: fixed;
