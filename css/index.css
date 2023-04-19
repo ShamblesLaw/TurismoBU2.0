@@ -30,6 +30,67 @@ main{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+.zona2{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../imgs/wallpaper-bu-puerto.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.zona2 div{
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.zona2 div h1{
+  
+  font-size: 4em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.zona2 div p{
+  padding-top: 15px;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.zona3{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../imgs/wallpaper-bu-puerto.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.zona3 div{
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.zona3 div h1{
+  
+  font-size: 4em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.zona3 div p{
+  padding-top: 15px;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
 .presentacion{
   text-align: center;
   padding: 4em;
