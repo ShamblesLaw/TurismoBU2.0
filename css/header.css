@@ -18,9 +18,25 @@ header{
     padding: 30px 20px;
     z-index: 10;
 }
+.act{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+
   
 header.abajo{
     background: rgba(25, 25, 25, 0.861);
+    padding: 15px 20px;
+}
+.act.abajo{
+    background: rgba(255, 255, 255, 0.861);
     padding: 15px 20px;
 }
   
@@ -70,9 +86,16 @@ header ul li a{
 header.abajo ul li a{
     color: white;
 }
+.act.abajo ul li a{
+    color: rgb(0, 0, 0);
+}
 
 header.abajo .logo img{
     content: url(../imgs/TBU-white.png);
+    transition: 1s;
+}
+.act.abajo .logo img{
+    content: url(../imgs/TBU-black.png);
     transition: 1s;
 }
 
@@ -82,7 +105,21 @@ header.abajo .logo img{
     color: black;
     text-decoration: none;
 }
+.act-naveg{
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 .naveg:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .4s;
+}
+.act-naveg:after {
     content: "";
     display: block;
     margin: auto;
@@ -94,8 +131,16 @@ header.abajo .logo img{
     width: 100%;
     background: #333;
 }
+.act-naveg:hover:after {
+    width: 100%;
+    background: #ffffff;
+}
 
 header.abajo .naveg:hover:after {
     width: 100%;
     background: #ffffff;
+}
+.act.abajo .act-naveg:hover:after {
+    width: 100%;
+    background: #000000;
 }
